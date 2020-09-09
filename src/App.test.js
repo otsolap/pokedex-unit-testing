@@ -8,6 +8,7 @@ import { shallow } from 'enzyme'
 // nyt tarkistamme App.js:n routeja, eli ihan perus React Routeja.
 // routeja on 2, eli laita 1,3,4 niin saat errorin.
 // toBe olisi hyvä tapa saada tietoon miten muunneltu data tulee olemaan.
+// toHaveBeencalled on funktio API-call testeihin.
 
 
 test('The <App> has 2 route links in structure.', () => {
