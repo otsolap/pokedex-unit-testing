@@ -34,7 +34,7 @@ class SearchBar extends React.Component {
                     </label>
                     <i className="material-icons">close</i>                
                 </div>
-                <input style={{marginLeft: "-99999px"}}className="btn waves-effect waves-light" type="submit" name="action"/>
+                <input style={{marginLeft: "-99999px"}}className="btn waves-effect waves-light submit" type="submit" name="action"/>
             </form>
         )
     }
