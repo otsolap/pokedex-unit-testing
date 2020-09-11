@@ -10,7 +10,7 @@ import { shallow } from 'enzyme'
 // toBe olisi hyvä tapa saada tietoon miten muunneltu data tulee olemaan.
 // toHaveBeencalled on funktio API-call testeihin.
 
-/*
+
 test('The <App> has 2 route links in structure.', () => {
  const wrap = shallow(<App></App>);
  const container = wrap.find('.container')
@@ -18,4 +18,3 @@ test('The <App> has 2 route links in structure.', () => {
  expect(routes.length).toEqual(2)
  console.log(wrap.debug())
 });
-*/
